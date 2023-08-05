@@ -1,0 +1,182 @@
+/* Add your custom styles here */
+body {
+  background-color: #333;
+  font-family: 'Pretendard', Arial, sans-serif;
+  text-align: center;
+}
+
+.logo {
+  margin: 101px 0 0;
+}
+
+h1 {
+  text-align:center;
+  margin: 101px 0 0; 
+  padding: 0;
+  color: var(--grey-800, #D9D9D9);
+  font-family: Pretendard;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: normal;
+}
+
+h2 {
+  text-align:center;
+  margin: 9px 0 0;
+  padding: 0;
+  color: var(--white, #FFF);
+  font-family: Pretendard;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 650;
+  line-height: normal;
+}
+
+.icon-container .frame {
+  display: flex;
+  margin: 9px 0 0;
+  align-items: center;
+  gap: 11px;
+  color: var(--grey-800, #D9D9D9);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: normal;
+  justify-content: center;
+}
+
+.body1 {
+  margin: 16px 0 0;
+  color: var(--grey-600, #A6A6A6);
+text-align: center;
+font-family: Pretendard;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 140% */
+  line-height: 28px;
+  white-space: pre-wrap; /* 줄바꿈 유지 */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 24px 40px;
+  border-radius: 16px;
+  background: var(--gra, linear-gradient(45deg, #764BA2 0%, #667EEA 100%));
+  box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+  transition: all 0.2s; /* 애니메이션 효과를 추가합니다 */
+}
+
+.btn .btn-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  /* 그림자 스타일을 추가합니다 */
+  box-shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.3);
+  /* 호버 시에 버튼 크기가 약간 커지도록 스케일 변환을 추가합니다 */
+  transform: scale(1.01);
+}
+
+.image {
+  max-width: 300px;
+}
+
+.img1 {
+  position: absolute; 
+  width: 460px;
+height: 79px;
+transform: rotate(-15.843deg);
+flex-shrink: 0;
+top: 123px; 
+right: 1285px;
+
+border-radius: 4px;
+shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.15);
+}
+
+.img2 {
+  position: absolute; 
+  width: 460px;
+height: 201px;
+transform: rotate(5.843deg);
+flex-shrink: 0;
+  top: 670px; 
+  right: 1293px;
+  shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.15);
+  }
+
+.img3 {
+position: absolute; 
+width: 440px;
+height: 331px;
+transform: rotate(15.843deg);
+flex-shrink: 0;
+top: 40px; 
+left: 1250px;
+
+border-radius: 4px;
+shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.15);
+}
+
+.img4 {
+  position: absolute; 
+  width: 460px;
+  height: 89px;
+  transform: rotate(-12.843deg);
+  flex-shrink: 0;
+  top: 820px; 
+  left: 1289px;
+  
+  border-radius: 4px;
+  shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  .img5 {
+    position: absolute; 
+    width: 149.899px;
+    height: 149.899px;
+    transform: rotate(-0.56deg);
+    right: 1547px;
+    top: 369px;
+    flex-shrink: 0;
+    
+    border-radius: 4px;
+    shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .img6 {
+      position: absolute; 
+      width: 134.506px;
+      height: 134.506px;
+      flex-shrink: 0;
+      left: 1474px;
+      top: 490px;
+      
+      
+      border-radius: 4px;
+      shadow: 4px 4px 16px 0px rgba(0, 0, 0, 0.15);
+      }
+
+      @media screen and (max-width: 1920px) {
+        /* 여기에 해당 크기에 맞는 스타일 작성 */
+      }
+      
+      @media screen and (max-width: 441px) {
+        /* 여기에 해당 크기에 맞는 스타일 작성 */
+      }
